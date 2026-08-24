@@ -2,7 +2,7 @@
 
 | Veld | Waarde |
 |---|---|
-| **Versie** | |
+| **Versie** | 0.1 |
 | **Status** | PROPOSED / ACCEPTED / REJECTED |
 | **Laatste aanpasdatum** | |
 | **Aanpasser** | |
@@ -21,7 +21,10 @@
 
 **Antwoord:**
 
-_Vul hier je antwoord in._
+"De cybersecurityrisico's van dit AI-systeem zijn beoordeeld door deze te mappen op de CIS-controls; deze mapping is echter nog niet (formeel) getoetst. Daarnaast worden pentesten en quickscans uitgevoerd, en op basis van de uitkomsten daarvan worden de risico's verder geïnventariseerd.
+
+**Bewijslast:**
+
 
 ---
 
