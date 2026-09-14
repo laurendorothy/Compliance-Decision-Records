@@ -6,8 +6,6 @@
 **Datum:** september 2026  
 **Status:** Concept
 
----
-
 ## 1. Doel en achtergrond
 
 Een **Conformity Assessment** (CA) legt per AI-systeem en per wettelijk thema vast welke besluiten zijn genomen om aan de EU AI-verordening te voldoen. Het document volgt de MADR-structuur (Markdown Any Decision Records) en maakt aantoonbaar — richting toezichthouder en intern — hoe en waarom specifieke maatregelen zijn gekozen.
@@ -16,7 +14,6 @@ Per thema (bijv. cybersecurity, databeheer, menselijk toezicht) bestaat één CA
 
 De CA is **geen eenmalig product**: het is een levend document dat wordt bijgehouden zolang het AI-systeem in gebruik is.
 
----
 
 ## 2. Wanneer maak je een Conformity Assessment?
 
@@ -33,7 +30,6 @@ Een bestaande CA wordt herzien wanneer (zie ook deel B, §6):
 - de jaarlijkse herzieningsdatum bereikt is, of
 - de toezichthouder om aanvullende documentatie verzoekt.
 
----
 
 ## 3. Naamgeving en opslag
 
@@ -45,8 +41,6 @@ Voorbeelden:
 
 **Opslag:** in de centrale map van het AICO-team, per systeem georganiseerd.  
 **Versienummering:** major.minor (bijv. `0.1` = concept, `1.0` = formeel vastgesteld).
-
----
 
 ## 4. Structuur van een Conformity Assessment
 
@@ -61,7 +55,6 @@ Elk CA-document bevat de volgende vaste secties:
 | **4. Bevestiging conformiteit** | Overzicht conformiteitsstatus per maatregel |
 | **5. Openstaande acties** | Acties die nog moeten worden uitgevoerd |
 
----
 
 ## 5. Structuur van een individueel besluit (MADR)
 
@@ -92,8 +85,6 @@ Chosen option: "[titel gekozen optie]", omdat [korte motivering die aansluit
 - Verzin **nooit** voor- of nadelen die niet in het bronmateriaal staan. Markeer ze als niet gedocumenteerd.
 - Overwogen alternatieven neem je alleen op als ze expliciet zijn besproken.
 - De "Decision Outcome" verwijst altijd naar de gekozen optie bij naam.
-
----
 
 ## Deel A — Voor de AI Compliance Officer
 
@@ -136,7 +127,6 @@ Na het interview:
 3. Zet de versie op `0.1` en lever op aan de thema-eigenaar voor beheer.
 4. Leg vast in de frontmatter wie het document heeft opgesteld en wie het beheert.
 
----
 
 ## Deel B — Voor de thema-eigenaar
 
@@ -192,25 +182,11 @@ Ieder jaar controleert de thema-eigenaar — samen met de AI Compliance Officer 
 
 Na de herziening wordt de versie verhoogd en de datum bijgewerkt.
 
----
 
-## 6. Veelgemaakte fouten
 
-| Fout | Correct |
-|---|---|
-| Pros/cons invullen die niet uit het interview komen | Markeer als *niet gedocumenteerd — nader in te vullen* |
-| Eén CA voor meerdere thema's | Eén CA per thema, één CA per systeem |
-| Status op `conform` zetten zonder bewijs | Eerst bewijsstukken verzamelen, dan status aanpassen |
-| Besluit beschrijven zonder link naar maatregel/artikel | Altijd het veld "Adresseert" en "Grondslag" invullen |
-| Alternatieven verzinnen die niet besproken zijn | Alleen opnemen wat expliciet is overwogen |
-
----
-
-## 7. Relatie tot andere documenten
+## 6. Relatie tot andere documenten
 
 | Document | Relatie |
 |---|---|
 | **Invulinstructie** (per thema) | Bevat de interviewvragen; separaat werkdocument, niet onderdeel van de CA |
-| **Risicoanalyse** | De CA verwijst naar de risicoanalyse als die beschikbaar is |
 | **Technische documentatie** | Bewijsstukken worden gelinkt vanuit de CA (sectie 1 frontmatter) |
-| **Post-market monitoring** | Bevindingen kunnen leiden tot update van openstaande acties in de CA |
