@@ -1,21 +1,22 @@
 # CDR Cybersecurity, [naam thema eigenaar]
 
-# CDR-015-HANSKEN-01
-
 ## B1: CIS Controls
 
-*M1: Passend niveau van cybersecurity en consistentie | Grondslag: Art. 15.1*
+*M1: Passend niveau van cybersecurity en consistentie | Grondslag: Art. 15.1*  
 
-Hansken verwerkt gevoelige forensische data en is geclassificeerd als hoog-risico AI-systeem. Om te bepalen welke beveiligingsmaatregelen noodzakelijk zijn, moet een systematische risicoanalyse worden uitgevoerd. Vraag: welk framework wordt gehanteerd om cybersecurityrisico's integraal te beoordelen en de consistentie van beveiligingsconfiguraties in de loop van de tijd te waarborgen?
+**Context and Problem Statement**
 
-* CIS Controls
+Hansken verwerkt gevoelige forensische data en is geclassificeerd als hoog-risico AI-systeem. Om te bepalen welke beveiligingsmaatregelen noodzakelijk zijn, moet een systematische risicoanalyse worden uitgevoerd. Vraag: welk framework wordt gehanteerd om cybersecurityrisico's integraal te beoordelen en de consistentie van beveiligingsconfiguraties in de loop van de tijd te waarborgen?  
 
-Chosen option: "B1: CIS Controls als risicoanalyse-raamwerk", omdat de cybersecurityrisico's zijn beoordeeld door deze te mappen op de CIS Controls. De mapping is uitgevoerd maar nog niet formeel getoetst (zie Openstaande acties, punt 1).
+**Considered options**  
+* CIS Controls  
 
+**Decision outcome**  
+Chosen option: "B1: CIS Controls als risicoanalyse-raamwerk", omdat de cybersecurityrisico's zijn beoordeeld door deze te mappen op de CIS Controls. De mapping is uitgevoerd maar nog niet formeel getoetst (zie Openstaande acties, punt 1).  
+
+**Consequences**
 * Good, because: *niet gedocumenteerd — nader in te vullen*
 * Bad, because: *niet gedocumenteerd — nader in te vullen*
-
----
 
 ## B2: Externe pentesten
 
@@ -214,31 +215,7 @@ De onderstaande maatregelen zijn na beoordeling als niet van toepassing beschouw
 
 *Motivering:* Niet van toepassing. Gebruikers beschikken over autorisatie en de gesloten architectuur van Hansken maakt het risico op membership inference minimaal.
 
----
-
-## 3. Motivering ten opzichte van de wettelijke eis
-
-De onderstaande tabel legt de traceerbaarheid vast van besluiten naar maatregelen en AIV-artikelen.
-
-| Besluit | Maatregel(en) | AIV-artikel | Toelichting |
-|---|---|---|---|
-| B1 | M1 | Art. 15.1 | CIS Controls-mapping uitgevoerd maar nog niet formeel getoetst. |
-| B2 | M1, M4 | Art. 15.1, 15.5 | Externe pentests bij grote wijzigingen of jaarlijks; bevindingen worden opgevolgd. |
-| B3 | M1, M2 | Art. 15.1, 15.5 | Geautomatiseerde CVE-scanning op componenten. |
-| B4 | M1, M10 | Art. 15.1, 15.5 | OWASP dependency scan als aanvulling op CVE-scanning. |
-| B5 | M1, M4 | Art. 15.1, 15.5 | SAST-tooling ingezet bij grote wijzigingen of jaarlijks. |
-| B6 | M2, M3 | Art. 15.5 | SBOM als transparantie-instrument; checksumcontroles op databronnen. |
-| B7 | M2 | Art. 15.5 | Container-signing borgt integriteit van uitgerolde artefacten. |
-| B8 | M2 | Art. 15.5 | Vierogen-/zesogenprincipe; wijzigingen geborgd via Git. |
-| B9 | M2 | Art. 15.5 | SSO zonder 2FA; toegang beperkt via access list. |
-| B10 | M2 | Art. 15.5 | Audit logging aanwezig; geen real-time alertering. |
-| B11 | M3, M5 | Art. 15.5 | Model bevroren; scheiding DBS (modelontwikkeling) en NFI (integratie). |
-| B12 | M8 | Art. 15.5 | Jailbreak-detectie op eigen hardware; status OpenHansken/copiloot open. |
-| B13 | M11 | Art. 15.5 | VGB-B, e-learning, MFA, SSO, time-out, lokale toegang aanwezig. |
-
----
-
-## 4. Bevestiging conformiteit
+## 3. Bevestiging conformiteit
 
 | Maatregel | Omschrijving | Grondslag | Status | Toelichting |
 |---|---|---|---|---|
@@ -254,9 +231,7 @@ De onderstaande tabel legt de traceerbaarheid vast van besluiten naar maatregele
 | M10 | Bescherming side-channel aanvallen | Art. 15.5 | Gedeeltelijk | OWASP dependency scan en firewall aanwezig. Volledige inventarisatie niet afgerond. |
 | M11 | Bescherming social engineering | Art. 15.5 | Geadresseerd | VGB-B, e-learning, MFA, SSO, time-out, lokale toegang aanwezig. Communicatiebeleid in opbouw (actie 4). |
 
----
-
-## 5. Openstaande acties
+## 4. Openstaande acties
 
 1. **CIS Controls-mapping formeel toetsen** — de uitgevoerde mapping van Hansken op de CIS Controls is nog niet formeel gevalideerd. Actie: laten reviewen door een onafhankelijke partij of intern toetsingskader.
 2. **Beschermingsmaatregelen bij DBS navragen** — de maatregelen die DBS treft ter bescherming van de trainingsdata en het model zijn nog niet bevestigd. Actie: schriftelijke bevestiging opvragen bij DBS.
