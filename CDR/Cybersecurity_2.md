@@ -1,61 +1,6 @@
 # CDR Cybersecurity, [naam thema eigenaar]
-#B1: CIS controls 
-M1 | Grondslag: Art. 15.1
-## Context and Problem Statement
-
-Hansken verwerkt gevoelige forensische data en is geclassificeerd als hoog-risico AI-systeem. Om te bepalen welke beveiligingsmaatregelen noodzakelijk zijn, moet een systematische risicoanalyse worden uitgevoerd. Vraag: welk framework wordt gehanteerd om cybersecurityrisico's integraal te beoordelen en de consistentie van beveiligingsconfiguraties in de loop van de tijd te waarborgen?
-
-## Considered Options
-
-* CIS Controls
-* {title of option 2}
-* {title of option 3}
-* … <!-- numbers of options can vary -->
-
-## Decision Outcome
-
-Chosen option: "CIS controls", omdat de cybersecurityrisico's zijn beoordeeld door deze te mappen op de CIS Controls. De mapping is uitgevoerd maar nog niet formeel getoetst (zie Openstaande acties, punt 1).
-
-### Consequences (info nog ophalen)
-
-* Good, because {positive consequence, e.g., improvement of one or more desired qualities, …}
-* Bad, because {negative consequence, e.g., compromising one or more desired qualities, …}
-* … <!-- numbers of consequences can vary -->
-
----
-status: gedeeltelijk
-date: 2026-08-24
-decision-makers: "[NAAM THEMA-EIGENAAR CYBERSECURITY]"
-consulted: Lauren Challis (AI Compliance Officer)
-rechtsgrondslag: Art. 15.1 (M1) en Art. 15.5 (M2–M11) AI-verordening
-bewijsstukken: ONTBREEKT — links toe te voegen
-herzieningsmoment: Jaarlijks of eerder bij incident / significante wijziging
-scope: Hansken inclusief OpenHansken en copiloot
----
 
 # CDR-015-HANSKEN-01
-
----
-
-## 0. Maatregelenregister
-
-De onderstaande maatregelen zijn afgeleid uit de cybersecurityvereisten van de AI-verordening. Per maatregel is de grondslag in de wet aangegeven. In de besluiten (sectie 1) wordt naar deze codes verwezen.
-
-| Code | Maatregel | Grondslag |
-|---|---|---|
-| M1 | Passend niveau van cybersecurity en consistentie | Art. 15.1 |
-| M2 | Bestand tegen ongeoorloofd gebruik en integriteitsschendingen | Art. 15.5 |
-| M3 | Voorkomen manipulatie datasets | Art. 15.5 |
-| M4 | Bescherming adversariele aanvallen | Art. 15.5 |
-| M5 | Bescherming systeemdefecten AI-systeem zelf | Art. 15.5 |
-| M6 | Bescherming inversieaanvallen en modeldiefstal | Art. 15.5 |
-| M7 | Bescherming ontwijkingsaanvallen | Art. 15.5 |
-| M8 | Bescherming jailbreak-aanvallen | Art. 15.5 |
-| M9 | Bescherming membership inference | Art. 15.5 |
-| M10 | Bescherming side-channel aanvallen | Art. 15.5 |
-| M11 | Bescherming social engineering | Art. 15.5 |
-
----
 
 ## B1: CIS Controls
 
