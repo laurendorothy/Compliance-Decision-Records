@@ -9,14 +9,16 @@
 Hansken verwerkt gevoelige forensische data en is geclassificeerd als hoog-risico AI-systeem. Om te bepalen welke beveiligingsmaatregelen noodzakelijk zijn, moet een systematische risicoanalyse worden uitgevoerd. Vraag: welk framework wordt gehanteerd om cybersecurityrisico's integraal te beoordelen en de consistentie van beveiligingsconfiguraties in de loop van de tijd te waarborgen?  
 
 **Considered options**  
-* CIS Controls  
+* CIS Controls
+* Optie B
+* Optie C
 
 **Decision outcome**  
-Chosen option: "B1: CIS Controls als risicoanalyse-raamwerk", omdat de cybersecurityrisico's zijn beoordeeld door deze te mappen op de CIS Controls. De mapping is uitgevoerd maar nog niet formeel getoetst (zie Openstaande acties, punt 1).  
+Chosen option: B1: CIS Controls, omdat de cybersecurityrisico's zijn beoordeeld door deze te mappen op de CIS Controls. De mapping is uitgevoerd maar nog niet formeel getoetst (zie Openstaande acties, punt 1).  
 
 **Consequences**
-* Good, because: *niet gedocumenteerd — nader in te vullen*
-* Bad, because: *niet gedocumenteerd — nader in te vullen*
+* Good, because: *nog niet gedocumenteerd*
+* Bad, because: *nog niet gedocumenteerd*
 
 ## B2: Externe pentesten
 
