@@ -1,4 +1,4 @@
-# CDR Cybersecurity, [naam thema eigenaar]
+# CDR Cybersecurity, Lauren Challis
 
 ## B1: CIS Controls
 
