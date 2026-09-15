@@ -14,9 +14,7 @@
 
 ## 1. Besluiten
 
-AI-systeem 1 ondersteunt onderzoekers bij het identificeren van personen op camerabeelden. De besluiten hieronder leggen vast hoe geregeld is dat de onderzoeker altijd de laatste keuze maakt.
-
-## B1: Elk resultaat vereist menselijke beoordeling voordat het een dossier ingaat
+## B1: Elk resultaat vereist een menselijke beoordeling voordat het gebruikt wordt
 
 *M1: Ontwerp en ontwikkel maatregelen voor effectief toezicht | Grondslag: Art. 14.1*
 
