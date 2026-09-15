@@ -233,9 +233,9 @@ De onderstaande maatregelen zijn na beoordeling als niet van toepassing beschouw
 | M10 | Bescherming side-channel aanvallen | Art. 15.5 | Gedeeltelijk | OWASP dependency scan en firewall aanwezig. Volledige inventarisatie niet afgerond. |
 | M11 | Bescherming social engineering | Art. 15.5 | Geadresseerd | VGB-B, e-learning, MFA, SSO, time-out, lokale toegang aanwezig. Communicatiebeleid in opbouw (actie 4). |
 
-## 4. Openstaande acties
+## 4. Openstaande acties + tijdslijn
 
-1. **CIS Controls-mapping formeel toetsen** — de uitgevoerde mapping van Hansken op de CIS Controls is nog niet formeel gevalideerd. Actie: laten reviewen door een onafhankelijke partij of intern toetsingskader.
+1. **CIS Controls-mapping formeel toetsen** — de uitgevoerde mapping van Hansken op de CIS Controls is nog niet formeel gevalideerd. Actie: laten reviewen door een onafhankelijke partij of intern toetsingskader. **Dit doen wij uiterlijk voor datum x. Op datum Y updaten wij de CDR.**
 2. **Beschermingsmaatregelen bij DBS navragen** — de maatregelen die DBS treft ter bescherming van de trainingsdata en het model zijn nog niet bevestigd. Actie: schriftelijke bevestiging opvragen bij DBS.
 3. **Jailbreak-detectie OpenHansken en copiloot nagaan** — of OpenHansken en de copiloot-component inherent voorzien in jailbreak-detectie is nog niet onderzocht. Actie: navragen bij de technisch eigenaar van de copiloot.
 4. **Communicatiebeleid social engineering afronden** — het beleid voor veilige communicatie tussen klanten en toezichthoudende medewerkers is nog in opbouw. Actie: afronden en vastleggen als onderdeel van de beveiligingsrichtlijnen.
