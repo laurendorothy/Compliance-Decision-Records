@@ -75,6 +75,6 @@ Een betrouwbaarheidsscore van 87% zegt weinig als de onderzoeker niet weet welke
 
 ## 3. Openstaande acties
 
-1. **Werkinstructie verplichte menselijke beoordeling formeel vaststellen**, de verplichting bestaat operationeel maar is niet schriftelijk verankerd. Deadline: Q1 2027. CDR updaten zodra de instructie is vastgesteld en gepubliceerd.
-2. **Laag/Heatmap uitrollen naar productie**, de heatmap-functionaliteit is klaar in de testomgeving maar nog niet beschikbaar voor de forensisch onderzoekers. Deadline: Q4 2026, afhankelijk van de VISUS-releaseplanning. CDR updaten na uitrol.
+1. **Werkinstructie verplichte menselijke beoordeling formeel vaststellen**, de verplichting bestaat operationeel maar is niet schriftelijk verankerd. **Deadline**:  10 Februari 2027. CDR updaten zodra de instructie is vastgesteld en gepubliceerd.
+2. **Laag/Heatmap uitrollen naar productie**, de heatmap-functionaliteit is klaar in de testomgeving maar nog niet beschikbaar voor de forensisch onderzoekers. **Deadline**: 10 November 2026, afhankelijk van de releaseplanning. CDR updaten na uitrol.
    
