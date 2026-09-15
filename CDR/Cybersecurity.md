@@ -217,7 +217,7 @@ De onderstaande maatregelen zijn na beoordeling als niet van toepassing beschouw
 
 *Motivering:* Niet van toepassing. Gebruikers beschikken over autorisatie en de gesloten architectuur van Hansken maakt het risico op membership inference minimaal.
 
-## 3. Bevestiging conformiteit
+## 3. Bevestiging conformiteit (invullen door AI-loket)
 
 | Maatregel | Omschrijving | Grondslag | Status | Toelichting |
 |---|---|---|---|---|
